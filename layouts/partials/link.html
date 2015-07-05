@@ -39,4 +39,9 @@
     <i class="fa fa-key"></i>
   </a>
   {{ end }}
+  {{ with .Site.Params.wishlist }}
+  <a href="https://www.amazon.co.jp/gp/registry/wishlist/?ie=UTF8&cid={{ . }}" target="_blank">
+    <i class="fa fa-gift"></i>
+  </a>
+  {{ end }}
 </div>
